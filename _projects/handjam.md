@@ -1,6 +1,7 @@
 ---
 layout: project
 title: "HandJam"
+slug: handjam
 categories: Python Swift Numpy Scikit-Learn CoreML iOS
 ---
 
