@@ -1,2 +1,3 @@
 entries:
-  - title: "test"
+  - title: "Projects"
+    project_list: true
