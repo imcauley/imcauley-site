@@ -6,19 +6,23 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
-  <body style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+  <body>
     <nav>
-      <div style="width: 35%; border: 0; border-left: 5px; border-bottom: 5px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px;  border-style: solid; border-color: chocolate; padding: 2em">
+      <div style="width: 35%; min-width: 390px; margin:0 auto;">
+      <div style="border: 0; border-left: 5px; border-bottom: 5px; border-bottom-left-radius: 30px;  border-style: solid; border-color: chocolate; padding: 2em; margin-right: 30px; padding-left: 50px; padding-bottom: 0;">
         <h2>Isaac McAuley</h2>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="https://github.com/imcauley">Github</a>
-        <a href="https://mstdn.ca/@imcauley">Mastodon</a>
+        <a class="tab" href="/">Home</a>
+        <a class="tab" href="/about">About</a>
+        <a class="tab" href="https://github.com/imcauley">Github</a>
+        <a class="tab" href="https://mstdn.ca/@imcauley">Mastodon</a>
       </nav>
+      </div>
     </div>
-      <div style="width: 35%; margin-top: -5px; border: 0; border-right: 5px; border-top: 5px; border-top-right-radius: 30px; border-style: solid; border-color: chocolate; padding: 2em; height: 300%;">
+      <div style="width: 35%; min-width: 390px; margin:0 auto;">
+      <div style="margin-top: -5px; margin-left: 30px; border: 0; border-right: 5px; border-top: 5px; border-top-right-radius: 30px; border-style: solid; border-color: chocolate; padding: 2em; height: 300%; padding-top: 1em;">
     <h3>{{ page.title }}</h3>
     <section>{{ content }}</section>
+    </div>
     </div>
     <!-- <footer>&copy; to me</footer> -->
   </body>

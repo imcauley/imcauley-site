@@ -2,3 +2,39 @@
 --- 
 
 @import "main";
+
+p {
+    font-family: "bitter-pro";
+}
+
+h1, h2, h3 {
+    font-family: "balance-groovy";
+}
+
+h2 {
+    font-size: 2em;
+}
+
+.tab {
+    padding: 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: chocolate;
+    font-family: "swansea";
+    color: white
+}
+
+@font-face {
+    font-family: "balance-groovy";
+    src: url(../fonts/BalanceGroovy.otf);
+}
+
+@font-face {
+    font-family: "bitter-pro";
+    src: url(../fonts/BitterPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "swansea";
+    src: url(../fonts/Swansea.ttf);
+}
