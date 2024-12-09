@@ -32,6 +32,7 @@ github_username: jekyll
 collections:
   projects:
     output: true
+    sort_by: ranking
 
 # Build settings
 theme: minima
