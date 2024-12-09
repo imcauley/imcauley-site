@@ -35,7 +35,6 @@ collections:
     sort_by: ranking
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
