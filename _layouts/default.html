@@ -8,22 +8,23 @@
   </head>
   <body>
     <nav>
-      <div style="width: 40%; min-width: 470px; margin:0 auto;">
-      <div style="border: 0; border-left: 5px; border-bottom: 5px; border-bottom-left-radius: 30px;  border-style: solid; border-color: #089B9B; padding: 2em; margin-right: 30px; padding-left: 50px; padding-bottom: 0; height: 7em;">
-        <h2>Isaac McAuley</h2>
-        <a class="tab" href="/">About</a>
-        <a class="tab" href="/projects">Projects</a>
-        <a class="tab" href="https://github.com/imcauley">Github</a>
-        <a class="tab" href="https://www.linkedin.com/in/imcauley">LinkedIn</a>
-        <a class="tab" href="https://bsky.app/profile/imcauley.com">Bluesky</a>
+      <div class="tab-bar-container">
+      <div class="tab-bar">
+        <h2 style="margin: 0; margin-bottom: 0.5em;">Isaac McAuley</h2>
+        <span style="font-size: 1.5em;">
+          <a class="tab" href="/">About</a>
+          <a class="tab" href="/projects">Projects</a>
+          <a class="tab" href="https://github.com/imcauley">Github</a>
+          <a class="tab" href="https://www.linkedin.com/in/imcauley">LinkedIn</a>
+          <a class="tab" href="https://bsky.app/profile/imcauley.com">Bluesky</a>
+        </span>
       </nav>
       </div>
     </div>
-      <div style="width: 40%; min-width: 470px; margin:0 auto; min-height: calc(100vh - 13em);">
-      <div style="margin-top: -5px; margin-left: 30px; border: 0; border-right: 5px; border-top: 5px; border-top-right-radius: 30px; border-style: solid; border-color: #089B9B; padding: 2em; padding-top: 1em; padding-left: 25px; min-height: calc(100vh - 13em);">
-    <h3>{{ page.title }}</h3>
-    <section>{{ content }}</section>
-    </div>
+      <div class="main-content-container">
+      <div class="main-content">
+        <section style="font-size: 1.6em;">{{ content }}</section>
+      </div>
     </div>
     <!-- <footer>&copy; to me</footer> -->
   </body>
